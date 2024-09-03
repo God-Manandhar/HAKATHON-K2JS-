@@ -13,17 +13,113 @@ body {
 }
 
 .navbar img {
-    height: 50px; /* Adjust the height as needed */
-    margin-right: 30px; /* Adjust this value to increase or decrease the space */
+    height: 50px;
+    /* Adjust the height as needed */
+    margin-right: 30px;
+    /* Adjust this value to increase or decrease the space */
 }
 
 .navbar a {
-    color: #333; /* Text color for the links */
+    color: #333;
+    /* Text color for the links */
     text-decoration: none;
     padding: 14px 20px;
     display: block;
 }
 
 .navbar a:hover {
-    color: #007BFF; /* Color change on hover */
+    color: #007BFF;
+    /* Color change on hover */
 }
+
+
+/* form for volunteer */
+
+.form{
+    display: flex;
+align-items: center;
+
+    position: absolute;   /* This will position the button absolutely */
+    left: 250px;
+    top: 700px; 
+    padding: 15px;
+    color: #333;
+    line-height: 200%;
+    background-color: #dfecfb; /* Background color */
+    margin-left: 20%;
+    margin-right: 60%;
+}
+
+input {
+    background-color:rgba(128, 128, 128, 0.301); /* Background color */
+    color: rgba(0, 0, 0, 0.671); /* Text color */
+    /* border: 0.5px solid rgb(0, 0, 0); */
+    width: 252px;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+
+  }
+  
+
+ /* styles.css */
+.ebutton {
+    position: absolute;   /* This will position the button absolutely */
+    right: 20px;          /* This will move the button 20px from the right side */
+    top: 20px;            /* This will move the button 20px from the top, adjust as needed */
+    padding: 10px 20px;   /* Adjust the padding to change the size of the button */
+    background-color: #db1313;  /* Set the background color */
+    color: white;         /* Set the text color */
+    border: none;         /* Remove the border */
+    border-radius: 5px;   /* Round the corners of the button */
+    font-size: 16px;      /* Set the font size */
+    cursor: pointer;      /* Change the cursor to a pointer when hovering over the button */
+  }
+  
+  .ebutton:hover {
+      background-color: #f70303; /* Change the background color when hovering */
+    }
+    
+    .image{
+        position: absolute;   /* This will position the button absolutely */
+        left: 120px;
+        top: 172px; 
+    }
+    
+    .vol{
+    position: absolute;   /* This will position the button absolutely */
+    left: 540px;
+    top: 650px; 
+}
+
+  .image1{
+      position: absolute;   /* This will position the button absolutely */
+      left: 320px;
+      top: 1302px; 
+    }
+    
+    
+    
+    
+    .dbutton {
+        position: absolute;   /* This will position the button absolutely */
+        left: 150px;          /* This will move the button 20px from the right side */
+        top: 400px;            /* This will move the button 20px from the top, adjust as needed */
+        padding: 50px 80px;   /* Adjust the padding to change the size of the button */
+        background-color: #1f4ee7;  /* Set the background color */
+        color: white;         /* Set the text color */
+        border: none;         /* Remove the border */
+        border-radius: 5px;   /* Round the corners of the button */
+        font-size: 16px;      /* Set the font size */
+        cursor: pointer;      /* Change the cursor to a pointer when hovering over the button */
+    }
+    
+    
+    .dbutton:hover {
+        background-color: #0d3ee0; /* Change the background color when hovering */
+      }
+      .submit-button{
+        border: 1px solid black;
+        border-radius: 20px;
+padding: 10px 0 20px 5;   
+align-items: center ; }

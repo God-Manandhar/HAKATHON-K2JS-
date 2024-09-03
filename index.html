@@ -1,26 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surakshya</title>
     <link rel="stylesheet" href="deco.css"> <!-- Link to external CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- for the slider -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script>
+        $(document).ready(function () {
+            $(".slider").bxSlider();
+        });
+    </script> -->
+    <!-- slider ends here -->
 </head>
+
 <body bgcolor="#f8d3a4" font="Ubuntu">
     <div class="logo">
-        <img src="C:\Users\DELL\Desktop\hakathon\logohaka.jpg" alt="Logo"> 
+        <img src="image/logohaka-removebg-preview.png" alt="Logo" height="50px" width="100px">
     </div>
     <div class="navbar">
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
-        <a href="#disaster">DISASTER</a>
-        <a href="#resource">RESOURCE</a>
-        <a href="#news">NEWS & UPDATE</a>
+        <a href="https://www.cbsnews.com/tag/disaster/">DISASTER</a>
+        <a href="https://victimconnect.org/">RESOURCE</a>
+        <a href="https://www.theguardian.com/world/natural--disasters">NEWS & UPDATE</a>
+    </div>
+    <button class="ebutton" onclick="showAlert()">EMERGENCY ALERT</button>
+
+    <p align="center">RECENT DISASTER AROUD THE NEPAL</p>
+
+    <div class="image">
+        <img src="image/flood.jpeg" alt="flood">
+        <img src="image/quake.jpeg" alt="flood">
+        <img src="image/landslide.jpeg" alt="flood">
+        <img src="image/images (1).jpeg" alt="flood">
+
+        <img src="image/images.jpeg" alt="flood">
+        <img src="image/download.jpeg" alt="flood">
+        <img src="image/images (3).jpeg" alt="flood">
+        <img src="image/images (4).jpeg" alt="flood">
+
     </div>
 
-    <div class="slider">
+
+    <!-- for slider -->
+    <!-- <div class="slider">
+        <img style="height: 1000px; width: 2px; position: relative;"  src="image/1.jpg" alt="flood">
+        <img src="image/landslide.jpeg" alt="flood">
+        <img src="image/quake.jpeg" alt="flood">
+    </div> -->
+
+    <!-- for slider -->
+    <!-- <div class="slider">
+        <img style="height: 1000px; width: 2px; position: relative;"  src="image/ngo1.jpg" alt="ngo1">
+        <img src="image/ngo2.png" alt="ngo2">
+        <img src="image/ngo3.jpeg" alt="ngo3">
+    </div> -->
+
+
+    <!-- <div class="form"> -->
+    <!-- <table>
+            <tr><td>Name</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Email</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Phone</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Address</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Username</td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td>Password</td></tr>
+            <tr><td><input type="text"></td></tr>
+        </table> -->
+
+    <p class="vol">Here is the form for volunteer:</p>
+    <div class="form">
+        <form>
+            <label for="name">Name:</label>   <br> 
+            <input type="text" name="fname" placeholder="Enter your name " required><br>
+            Email:
+            <input type="email" name="fname" placeholder="Enter your email " required>
+            Phone:
+            <input type="number" name="fname" placeholder="Enter your number " required>
+            Address:
+            <input type="text" name="fname" placeholder="Enter your address " required>
+            Username:
+            <input type="text" name="fname" placeholder="Enter your username " required>
+            Password:
+            <input type="password" name="fname" placeholder="Enter your password " required> <br><br>
+            <button style="background-color: rgb(150, 238, 142); height: 25px; width: 75px" class="submit-button">Submit</button>
+        </form>
+        <br>
+        
+    </div>
+
+    <div class="image1">
+        <img src="image/ngo1.jpeg" alt="ngo2">
+        <img src="image/ngo2.png" alt="ngo1">
+        <img src="image/ngo3.jpeg" alt="ngo3">
+
+        <a href="https://tprf.org/humanitarian-aid/?gad_source=1&gclid=CjwKCAjw59q2BhBOEiwAKc0ijcEKGgyX0mm1d0iMs-nDV0O0qUv4tkzUjatmXL5ke-GPB1M7XbFqSRoCKlsQAvD_BwE"><button class="dbutton">Make a Difference: Donate Now!</button></a>
 
     </div>
+
+  
 </body>
+
 </html>
+
+<script src="backend.js"></script>
